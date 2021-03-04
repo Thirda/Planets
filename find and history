@@ -1,0 +1,210 @@
+therda@mbp-de-kevin shell % find planets
+planets
+planets/real
+planets/real/gas-giants
+planets/real/gas-giants/jupiter.jpeg
+planets/real/gas-giants/saturn.jpeg
+planets/real/terrestrial
+planets/real/terrestrial/mercury.jpeg
+planets/real/terrestrial/earth.jpeg
+planets/real/terrestrial/venus.jpeg
+planets/real/terrestrial/mars.jpeg
+planets/inhabited
+planets/inhabited/mercury.jpeg
+planets/inhabited/earth.jpeg
+planets/inhabited/venus.jpeg
+planets/inhabited/mars.jpeg
+planets/fictional
+planets/fictional/arrakis.jpeg
+planets/fictional/cybertron.jpeg
+planets/fictional/coruscant.jpeg
+
+  133  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+  134  /quests/shell
+  135  cd Documents
+  136  mkdir Planet
+  137  cd Planet
+  138  mkdir quests
+  139  cd quests
+  140  mkdir shell
+  141  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+  142  cd shell
+  143  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+  144  curl curl planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+  145  curl -L -o planets.zip "https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true"
+  146  unzip planets.zip
+  147  cd planets
+  148  mkdir real
+  149  mkdir fictional
+  150  mkdir inhabited
+  151  cd real
+  152  mkdir terrestrial
+  153  mdkir gas-giants
+  154  mkdir gas-giants
+  155  mkdir dwarf-planets
+  156  ls -l
+  157  cd ..
+  158  ls -l
+  159  mv arrakis.jpeg ; mw coruscant.jpeg ; mw cybertron.jpeg fictional
+  160  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictional
+  161  ls-l
+  162  ls -l
+  163  mv earth.jpeg mars.jpeg jupiter.jpeg mercury.jpeg neptune.jpeg pluto.jpeg saturn.jpeg uranus.jpeg venus.jpeg real
+  164  ls -l
+  165  cd fictional
+  166  ls
+  167  cd ..
+  168  cd real
+  169  ls
+  170  ls
+  171  cd ..
+  172  ls
+  173  cd real
+  174  cd ..
+  175  cd fictional
+  176  ls
+  177  cd ..
+  178  cd inhabited
+  179  ls
+  180  cd ..
+  181  cd real
+  182  ls
+  183  ls
+  184  mv jupiter.jpeg earth.jpeg mars.jpeg terrestrial
+  185  ls
+  186  mv uranus.jpeg venus.jpeg neptune.jpeg gas-giants
+  187  ls
+  188  mv mercury.jpeg saturn.jpeg pluto.jpeg dwarf-planets
+  189  ls
+  190  cd dwarf-planets
+  191  ls
+  192  cd ..
+  193  cd gas-giants
+  194  ls
+  195  cd ..
+  196  cd terrestrial
+  197  ls
+  198  cd ..
+  199  ls
+  200  cd terrestrial
+  201  ls
+  202  cd ..
+  203  cd ..
+  204  cd ..
+  205  cd ..
+  206  ls
+  207  cd shell
+  208  cd planets
+  209  cd real
+  210  cd gas-giants
+  211  cd ..
+  212  cd ..
+  213  cd ..
+  214  cd ..
+  215  cd shell
+  216  cd planets/real
+  217  cd terrestrial/
+  218  cd ..
+  219  cd ..
+  220  cd ..
+  221  cd planets
+  222  cd Documents/Planet
+  223  ls
+  224  cd quests
+  225  cd shell
+  226  cd planets
+  227  cd real
+  228  cd terrestrial
+  229  ls
+  230  mv jupiter.jpeg /Users/therda/Documents/Planet/quests/shell/planets
+  231  ls
+  232  cd ..
+  233  ls
+  234  cd gas-giants
+  235  ls
+  236  cd ..
+  237  cd gas-giants
+  238  ls
+  239  mv venus.jpeg /Users/therda/Documents/Planet
+  240  ls
+  241  cd ..
+  242  cd ..
+  243  cd ..
+  244  cd ..
+  245  ls
+  246  cd ..
+  247  ls
+  248  mv venus.jpeg /Users/therda/Documents/Planet/quests/shell/planets/real/terrestrial
+  249  cd quests/shell/planets/real
+  250  ls
+  251  cd terrestrial
+  252  ls
+  253  cd ..
+  254  cd dwarf-planets
+  255  ls
+  256  mv mercury.jpeg /Users/therda/Documents/Planet/quests/shell/planets/real/terrestrial
+  257  ls
+  258  cd ..
+  259  cd terrestrial
+  260  ls
+  261  cd ..
+  262  cd ..
+  263  cd fictional
+  264  ls
+  265  cd ..
+  266  cd real
+  267  cd gas-giants
+  268  ls
+  269  mv neptune.jpeg uranus.jpeg /Users/therda/Documents/Planet/quests/shell/planets/real/dwarf-planets
+  270  cd ..
+  271  cd dwarf-planets
+  272  ls
+  273  cd ..
+  274  cd ..
+  275  mv jupiter.jpeg /Users/therda/Documents/Planet/quests/shell/planets/real/gas-giants
+  276  ls
+  277  cd inhabited
+  278  ls
+  279  cd ..
+  280  cd real
+  281  cd dwarf-planets
+  282  ls
+  283  mv saturn.jpeg /Users/therda/Documents/Planet/quests/shell/planets/real/gas-giants
+  284  ls
+  285  cd ..
+  286  cd terrestrial
+  287  ls
+  288  cp earth.jpeg mars.jpeg mercury.jpeg venus.jpeg /Users/therda/Documents/Planet/quests/shell/planets/inhabited
+  289  ls
+  290  cd ..
+  291  cd ..
+  292  cd inhabited
+  293  ls
+  294  cd ..
+  295  cd real
+  296  ls
+  297  cd terrestrial
+  298  ls
+  299  cd ..
+  300  cd gas-giants
+  301  ls
+  302  cd ..c
+  303  cd ..
+  304  cd dwarf-planets
+  305  ls
+  306  cd ..
+  307  ls
+  308  cp dwarf-planets /Users/therda/Desktop
+  309  rmdir dwarf-planets
+  310  rm dwarf-planets
+  311  rmdir dwarf-planets
+  312  rmdir -r dwarf-planets
+  313  cd dwarf-planets
+  314  ls
+  315  rm neptune.jpeg pluto.jpeg uranus.jpeg
+  316  ls
+  317  cd ..
+  318  rmdir dwarf-planets
+  319  ls
+  320  cd ..
+  321  cd ..
